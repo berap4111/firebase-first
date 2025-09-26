@@ -5,15 +5,17 @@ import { getFirestore } from "firebase/firestore";
 
 // ⚡ Replace with your Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "your-app.firebaseapp.com",
-  projectId: "your-app",
-  storageBucket: "your-app.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID",
+  apiKey: "AIzaSyDh_MUcmXUOFASjIIizi91N1DVsj_UAEMY",
+  authDomain: "fir-ed287.firebaseapp.com",
+  projectId: "fir-ed287",
+  storageBucket: "fir-ed287.firebasestorage.app",
+  messagingSenderId: "300236930153",
+  appId: "1:300236930153:web:28b061034a2e0d147376f8",
+  measurementId: "G-3EQ8DS7FXH"
 };
 
 const app = initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+
